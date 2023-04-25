@@ -10,7 +10,7 @@ screen.setup(width=500 , height = 400)
 user_bet  = screen.textinput(title="Bet" , prompt="Choose the color of turtle")
 
 
-colors = ["red" , "yellow" , "green" , "blue" ,  "black"   , "purple" , "orange"]
+colors = ["red" , "yellow" , "green" , "blue" ,  "black"   , "purple" , "ogitrange"]
 y_pos = [-70, -40 ,-10 , 20 , 50 , 80 , 110]
 turtle_list = []
 for i in range(0,7):
