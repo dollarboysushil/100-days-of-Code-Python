@@ -24,6 +24,8 @@ def clear():
     timmy.penup()
     timmy.home()
     timmy.pendown()
+
+    
 screen.listen()
 screen.onkey( key = "w" , fun=forward)
 screen.onkey( key = "s" , fun=backward)
