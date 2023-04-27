@@ -1,4 +1,4 @@
-from turtle import Turtle , Screen
+from turtle import Turtle ,  Screen
 
 
 
@@ -23,7 +23,7 @@ def clear():
     timmy.clear()
     timmy.penup()
     timmy.home()
-    timmy.pendown()
+    timmy.pendown() 
 
     
 screen.listen()
