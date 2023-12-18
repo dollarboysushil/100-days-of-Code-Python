@@ -15,4 +15,4 @@ driver.get("https://en.wikipedia.org/wiki/Main_Page")
 
 article_num = driver.find_element(By.CSS_SELECTOR,"#articlecount a")
 
-print(article_num.text)
+(article_num.click())

@@ -7,9 +7,9 @@ import time
 driver = webdriver.Chrome() 
 driver.get("https://en.wikipedia.org/wiki/Main_Page")
 
-#button.click()
 
-text_box =  driver.find_element(By.NAME ,"search")
+
+text_box =  driver.find_element(By.CLASS_NAME ,"cdx-text-input__input")
 text_box.send_keys("python")
 
 time.sleep(5)
